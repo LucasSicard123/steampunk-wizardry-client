@@ -1,0 +1,562 @@
+{
+	autofocus_id: "7BC5B367174D0B28"
+	default_hide_dependency_lines: false
+	default_quest_shape: "gear"
+	filename: "steampunk"
+	group: ""
+	hide_quest_until_deps_complete: true
+	icon: "create:goggles"
+	id: "77B286D662CA82FF"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["399F7E91ACC3971F"]
+			id: "7BC5B367174D0B28"
+			rewards: [{
+				id: "165DD819A635CABD"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "4BFB96F02ACD44F7"
+				title: "Welcome to The Steam Age!"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7BC5B367174D0B28"]
+			id: "58028D70E478CD64"
+			tasks: [{
+				id: "59CA43B705515FC8"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["58028D70E478CD64"]
+			id: "323AE5F2392CCF5C"
+			tasks: [
+				{
+					id: "4323962C9108361D"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "4B0EB7E48CCAF741"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+			]
+			title: "Cogs"
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["323AE5F2392CCF5C"]
+			id: "510E6692D882D95E"
+			tasks: [
+				{
+					id: "6EBA9B5EB8B649FD"
+					item: "create:water_wheel"
+					type: "item"
+				}
+				{
+					id: "54ADF581E5CADC69"
+					item: "create:large_water_wheel"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["58028D70E478CD64"]
+			id: "6B47643770EE1D54"
+			tasks: [{
+				id: "50AB84BF99665D17"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["25AE6EDA9CBC9EA1"]
+			id: "7B608283D65494AD"
+			tasks: [{
+				id: "726A70E041977252"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6B47643770EE1D54"]
+			id: "25AE6EDA9CBC9EA1"
+			tasks: [{
+				id: "03591A20D84E1140"
+				item: "create:depot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7B608283D65494AD"]
+			id: "1E521E456AFEBF45"
+			tasks: [{
+				id: "44EDEED487D947D5"
+				item: "create:empty_blaze_burner"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["510E6692D882D95E"]
+			id: "23723A020C7CB337"
+			tasks: [{
+				id: "0566F7EA88F85DCA"
+				item: "create:gearbox"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["23723A020C7CB337"]
+			id: "029A97002E70B76A"
+			tasks: [{
+				id: "150DA7B5A502068F"
+				item: "create:gearshift"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["323AE5F2392CCF5C"]
+			id: "7145D6E67719FE4E"
+			tasks: [{
+				id: "5388EA4B8E3424C3"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7145D6E67719FE4E"]
+			id: "1A6C91EF67FB49F1"
+			tasks: [{
+				id: "0FFA6684C4156B44"
+				item: "create:fluid_pipe"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1A6C91EF67FB49F1"]
+			id: "4B370C4A973464BA"
+			tasks: [{
+				id: "1FF186061792AED0"
+				item: "create:mechanical_pump"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4B370C4A973464BA"]
+			id: "159FDEB2C6C32310"
+			tasks: [{
+				id: "396CE497AAAB2647"
+				item: "create:fluid_tank"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"48EABE8925D30417"
+				"159FDEB2C6C32310"
+			]
+			id: "02FA8405E0421F7F"
+			tasks: [{
+				id: "1F2AB29B92A704D2"
+				item: "create:steam_engine"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1E521E456AFEBF45"]
+			id: "48EABE8925D30417"
+			tasks: [{
+				id: "6925A0CDFC95C197"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["58028D70E478CD64"]
+			id: "3C3024470641C847"
+			optional: true
+			tasks: [{
+				id: "072222A13984A89C"
+				item: "create:hand_crank"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7B608283D65494AD"]
+			id: "727098ED9E1B48A7"
+			tasks: [{
+				id: "61051004E291B667"
+				item: "create:wrench"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7145D6E67719FE4E"]
+			id: "711FFF6F2018EC29"
+			tasks: [{
+				id: "3C334069E57CB4BD"
+				item: "create:andesite_funnel"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6B47643770EE1D54"]
+			icon: "create:mechanical_mixer"
+			id: "299B3CCC746E9C28"
+			tasks: [
+				{
+					id: "25993EC5E373F448"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "47F77910C4601AF7"
+					item: "create:basin"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7BC5B367174D0B28"]
+			id: "56218D36473B2E3B"
+			tasks: [{
+				id: "15309A4AF5DF4A80"
+				item: {
+					Count: 1
+					id: "create:sand_paper"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["56218D36473B2E3B"]
+			id: "20D234BF759BB11C"
+			tasks: [{
+				id: "6BE23C4A6D97C2BF"
+				item: "create:polished_rose_quartz"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"20D234BF759BB11C"
+				"5170B543280D5F9C"
+			]
+			id: "007714EF64253AFA"
+			tasks: [{
+				id: "4E31E0A70678DB74"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["299B3CCC746E9C28"]
+			id: "5170B543280D5F9C"
+			tasks: [{
+				id: "212264F7ED95E2EC"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7B608283D65494AD"]
+			id: "2DBCE6D2FF94CD12"
+			tasks: [{
+				id: "6B2D425DCDDEB300"
+				item: "create:goggles"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["007714EF64253AFA"]
+			id: "7BA37038317A0A2C"
+			tasks: [{
+				id: "6B1BB600A22F7707"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5170B543280D5F9C"]
+			id: "4E2E63C3B22F1F3A"
+			tasks: [{
+				id: "278ED5FF4729DA2E"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4E2E63C3B22F1F3A"]
+			id: "77448066D94083A2"
+			tasks: [{
+				id: "16467525D6FF4566"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1E521E456AFEBF45"]
+			id: "1717B246C70A3143"
+			tasks: [{
+				id: "4AF5B9F3C276A834"
+				item: "create:spout"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"1717B246C70A3143"
+				"48EABE8925D30417"
+			]
+			id: "71D65FA16197E6C6"
+			tasks: [{
+				id: "67C01BC91BE20437"
+				item: "create:blaze_cake"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["007714EF64253AFA"]
+			id: "1B8568A31DF8B89F"
+			tasks: [{
+				id: "6D41B9EE42380D7B"
+				item: "create:track"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"5170B543280D5F9C"
+				"7BA37038317A0A2C"
+			]
+			id: "6847996E9F90025C"
+			tasks: [{
+				id: "2F7E2F3346971A82"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["02FA8405E0421F7F"]
+			id: "1107C422317355B2"
+			tasks: [{
+				id: "54356EE35394A5C9"
+				item: "create:steam_whistle"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1107C422317355B2"]
+			id: "096EC7FAB633CAC4"
+			tasks: [{
+				id: "3B76FD2400F8009B"
+				item: "create_confectionery:gingerbread_man"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4E2E63C3B22F1F3A"]
+			id: "0B5242B361236E41"
+			tasks: [{
+				id: "7707DDABB9DFEBEB"
+				item: {
+					Count: 1
+					id: "cgs:revolver"
+					tag: {
+						Ammo: "cgs:round_revolver"
+						AmmoCount: 6
+						ThrowMode: "ntgl:safe"
+						variant: "default"
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["096EC7FAB633CAC4"]
+			id: "67E288656BC45832"
+			shape: "circle"
+			tasks: [{
+				id: "41C18AC581E40DC4"
+				title: "What Now?"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7BC5B367174D0B28"]
+			id: "6C4D32B24778B400"
+			tasks: [{
+				id: "16F40440E6B70AE4"
+				item: "immersive_aircraft:engine"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7BC5B367174D0B28"]
+			id: "76097582F4A546F8"
+			tasks: [
+				{
+					id: "152A95E9592410BD"
+					item: "rustic_engineer:book_spidermech"
+					type: "item"
+				}
+				{
+					id: "7FD0C6C17B81E957"
+					item: "rustic_engineer:book_airship"
+					type: "item"
+				}
+				{
+					id: "7767FC7F9F0E0844"
+					item: "rustic_engineer:book_dragon_fly"
+					type: "item"
+				}
+				{
+					id: "379670C12C81DB17"
+					item: "rustic_engineer:book_abyssal_submarine"
+					type: "item"
+				}
+			]
+			title: "Rustic Engineer"
+			x: -8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["56218D36473B2E3B"]
+			id: "5C73B93F360642F4"
+			tasks: [{
+				id: "4C9DAFDF208CCA06"
+				item: {
+					Count: 1
+					id: "grapplemod:grapplinghook"
+					tag: {
+						Damage: 0
+						custom: {
+							angle: 20.0d
+							attract: 0b
+							attractradius: 3.0d
+							crc32: 2252267022L
+							detachonkeyrelease: 0b
+							doublehook: 0b
+							enderstaff: 0b
+							hookgravity: 1.0d
+							maxlen: 30.0d
+							motor: 0b
+							motoracceleration: 0.2d
+							motordampener: 0b
+							motormaxspeed: 4.0d
+							motorwhencrouching: 0b
+							motorwhennotcrouching: 1b
+							oneropepull: 0b
+							phaserope: 0b
+							playermovementmult: 1.0d
+							pullbackwards: 1b
+							reelin: 1b
+							repel: 0b
+							repelforce: 1.0d
+							rocket: 0b
+							rocket_active_time: 0.5d
+							rocket_force: 1.0d
+							rocket_refuel_ratio: 15.0d
+							rocket_vertical_angle: 0.0d
+							smartdoublemotor: 1b
+							smartmotor: 0b
+							sneakingangle: 10.0d
+							sneakingverticalthrowangle: 0.0d
+							sticky: 0b
+							throwspeed: 2.0d
+							verticalthrowangle: 0.0d
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 1.0d
+		}
+	]
+	title: "&6Steampunk"
+}
