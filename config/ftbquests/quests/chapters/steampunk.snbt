@@ -12,6 +12,13 @@
 	quests: [
 		{
 			dependencies: ["399F7E91ACC3971F"]
+			description: [
+				"The power of steam takes quite a few steps to harness, but to be clear, these quests do not explain everything in the Create set of mods."
+				""
+				"Create is complicated but also quite powerful!"
+				""
+				"To understand most machinery, just hold \"W\" over the item to Ponder it."
+			]
 			id: "7BC5B367174D0B28"
 			rewards: [{
 				id: "165DD819A635CABD"
@@ -29,7 +36,13 @@
 		}
 		{
 			dependencies: ["7BC5B367174D0B28"]
+			description: ["The first material you will need lots of is Andesite Alloy."]
 			id: "58028D70E478CD64"
+			rewards: [{
+				id: "26999B1448B2AACF"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "59CA43B705515FC8"
 				item: "create:andesite_alloy"
@@ -40,7 +53,17 @@
 		}
 		{
 			dependencies: ["58028D70E478CD64"]
+			description: [
+				"Cogs are what is needed to \"transfer\" rotational energy to other machines."
+				""
+				"You will also need plenty of shafts."
+			]
 			id: "323AE5F2392CCF5C"
+			rewards: [{
+				id: "69C2C753F2FE4AB1"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "4323962C9108361D"
@@ -59,7 +82,13 @@
 		}
 		{
 			dependencies: ["323AE5F2392CCF5C"]
+			description: ["The first automated source of rotational force!"]
 			id: "510E6692D882D95E"
+			rewards: [{
+				id: "2349434D5623D746"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "6EBA9B5EB8B649FD"
@@ -77,7 +106,13 @@
 		}
 		{
 			dependencies: ["58028D70E478CD64"]
+			description: ["The base building block for machines."]
 			id: "6B47643770EE1D54"
+			rewards: [{
+				id: "604EE7E0F84F823C"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "50AB84BF99665D17"
 				item: "create:andesite_casing"
@@ -89,6 +124,12 @@
 		{
 			dependencies: ["25AE6EDA9CBC9EA1"]
 			id: "7B608283D65494AD"
+			rewards: [{
+				id: "5DE7DDC41A13C2BD"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Pressing matters!"
 			tasks: [{
 				id: "726A70E041977252"
 				item: "create:mechanical_press"
@@ -100,6 +141,11 @@
 		{
 			dependencies: ["6B47643770EE1D54"]
 			id: "25AE6EDA9CBC9EA1"
+			rewards: [{
+				id: "12F90510C5E7E8A8"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "03591A20D84E1140"
 				item: "create:depot"
@@ -110,7 +156,13 @@
 		}
 		{
 			dependencies: ["7B608283D65494AD"]
+			description: ["You will need to right-click a blaze to capture it with this burner!"]
 			id: "1E521E456AFEBF45"
+			rewards: [{
+				id: "4FA6923A0D8B5184"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "44EDEED487D947D5"
 				item: "create:empty_blaze_burner"
@@ -121,7 +173,13 @@
 		}
 		{
 			dependencies: ["510E6692D882D95E"]
+			description: ["Used to change direction."]
 			id: "23723A020C7CB337"
+			rewards: [{
+				id: "0540D6322008CAF4"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0566F7EA88F85DCA"
 				item: "create:gearbox"
@@ -133,6 +191,11 @@
 		{
 			dependencies: ["23723A020C7CB337"]
 			id: "029A97002E70B76A"
+			rewards: [{
+				id: "23DB2FCE0CA716F0"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "150DA7B5A502068F"
 				item: "create:gearshift"
@@ -143,7 +206,13 @@
 		}
 		{
 			dependencies: ["323AE5F2392CCF5C"]
+			description: ["Use two separate shafts to make a belt!"]
 			id: "7145D6E67719FE4E"
+			rewards: [{
+				id: "3C1DE0938068BC3F"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5388EA4B8E3424C3"
 				item: "create:belt_connector"
@@ -155,6 +224,11 @@
 		{
 			dependencies: ["7145D6E67719FE4E"]
 			id: "1A6C91EF67FB49F1"
+			rewards: [{
+				id: "0EC70FB71378CDA8"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0FFA6684C4156B44"
 				item: "create:fluid_pipe"
@@ -166,6 +240,11 @@
 		{
 			dependencies: ["1A6C91EF67FB49F1"]
 			id: "4B370C4A973464BA"
+			rewards: [{
+				id: "1752243460F2D26A"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1FF186061792AED0"
 				item: "create:mechanical_pump"
@@ -177,6 +256,11 @@
 		{
 			dependencies: ["4B370C4A973464BA"]
 			id: "159FDEB2C6C32310"
+			rewards: [{
+				id: "10DCD1B8D28D27EA"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "396CE497AAAB2647"
 				item: "create:fluid_tank"
@@ -190,7 +274,17 @@
 				"48EABE8925D30417"
 				"159FDEB2C6C32310"
 			]
+			description: [
+				"Finally! STEAM!!!!"
+				""
+				"Once you have this setup made correctly, you can gain as much rotational force as you need to build the greatest factory in the world!"
+			]
 			id: "02FA8405E0421F7F"
+			rewards: [{
+				id: "578A0FC82951B116"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1F2AB29B92A704D2"
 				item: "create:steam_engine"
@@ -202,6 +296,11 @@
 		{
 			dependencies: ["1E521E456AFEBF45"]
 			id: "48EABE8925D30417"
+			rewards: [{
+				id: "4F2A4607DAA65783"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6925A0CDFC95C197"
 				item: "create:blaze_burner"
@@ -212,8 +311,18 @@
 		}
 		{
 			dependencies: ["58028D70E478CD64"]
+			description: [
+				"Here is something to get rotation started."
+				""
+				"Just put it on the end of a shaft, right-click once, and your character will just keep cranking until you look away."
+			]
 			id: "3C3024470641C847"
 			optional: true
+			rewards: [{
+				id: "133D8D0F2B038CF9"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "072222A13984A89C"
 				item: "create:hand_crank"
@@ -225,6 +334,11 @@
 		{
 			dependencies: ["7B608283D65494AD"]
 			id: "727098ED9E1B48A7"
+			rewards: [{
+				id: "74F19862E3B3D715"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "61051004E291B667"
 				item: "create:wrench"
@@ -236,6 +350,11 @@
 		{
 			dependencies: ["7145D6E67719FE4E"]
 			id: "711FFF6F2018EC29"
+			rewards: [{
+				id: "4370577F7B2F4761"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3C334069E57CB4BD"
 				item: "create:andesite_funnel"
@@ -246,8 +365,14 @@
 		}
 		{
 			dependencies: ["6B47643770EE1D54"]
+			description: ["This will be helpful for creating alloys!"]
 			icon: "create:mechanical_mixer"
 			id: "299B3CCC746E9C28"
+			rewards: [{
+				id: "3AE711B918321289"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "25993EC5E373F448"
@@ -265,7 +390,13 @@
 		}
 		{
 			dependencies: ["7BC5B367174D0B28"]
+			description: ["This is needed to get to some more important machinery."]
 			id: "56218D36473B2E3B"
+			rewards: [{
+				id: "27AEE37156B80830"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "15309A4AF5DF4A80"
 				item: {
@@ -282,7 +413,13 @@
 		}
 		{
 			dependencies: ["56218D36473B2E3B"]
+			description: ["Now that you have polished the rose quartz, you may start crafting more useful machines!"]
 			id: "20D234BF759BB11C"
+			rewards: [{
+				id: "1B794519F21609B6"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6BE23C4A6D97C2BF"
 				item: "create:polished_rose_quartz"
@@ -296,7 +433,14 @@
 				"20D234BF759BB11C"
 				"5170B543280D5F9C"
 			]
+			description: ["The Deployer is helpful for not only delpoying but also picking!"]
 			id: "007714EF64253AFA"
+			rewards: [{
+				id: "18C4B9DAE3EE1823"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "poke"
 			tasks: [{
 				id: "4E31E0A70678DB74"
 				item: "create:deployer"
@@ -308,6 +452,11 @@
 		{
 			dependencies: ["299B3CCC746E9C28"]
 			id: "5170B543280D5F9C"
+			rewards: [{
+				id: "5EEC0D9E7B2655F7"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "212264F7ED95E2EC"
 				item: "create:brass_ingot"
@@ -319,6 +468,11 @@
 		{
 			dependencies: ["7B608283D65494AD"]
 			id: "2DBCE6D2FF94CD12"
+			rewards: [{
+				id: "7C2E7FB15385BCB2"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6B2D425DCDDEB300"
 				item: "create:goggles"
@@ -330,6 +484,12 @@
 		{
 			dependencies: ["007714EF64253AFA"]
 			id: "7BA37038317A0A2C"
+			rewards: [{
+				id: "404CA0BDBBEB7652"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Quite Precise"
 			tasks: [{
 				id: "6B1BB600A22F7707"
 				item: "create:precision_mechanism"
@@ -340,7 +500,17 @@
 		}
 		{
 			dependencies: ["5170B543280D5F9C"]
+			description: [
+				"Now you have come to some recipes that require larger crafting grids or automated crafting."
+				""
+				"This will help you do that in a very satisfying way!"
+			]
 			id: "4E2E63C3B22F1F3A"
+			rewards: [{
+				id: "028A3458D57C63D3"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "278ED5FF4729DA2E"
 				item: "create:mechanical_crafter"
@@ -352,6 +522,11 @@
 		{
 			dependencies: ["4E2E63C3B22F1F3A"]
 			id: "77448066D94083A2"
+			rewards: [{
+				id: "3051166AC5829067"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "16467525D6FF4566"
 				item: "create:crushing_wheel"
@@ -363,6 +538,11 @@
 		{
 			dependencies: ["1E521E456AFEBF45"]
 			id: "1717B246C70A3143"
+			rewards: [{
+				id: "662749A6606384AE"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4AF5B9F3C276A834"
 				item: "create:spout"
@@ -376,7 +556,13 @@
 				"1717B246C70A3143"
 				"48EABE8925D30417"
 			]
+			description: ["Used to feed the captured blazes!"]
 			id: "71D65FA16197E6C6"
+			rewards: [{
+				id: "6B172098F9852BF9"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "67C01BC91BE20437"
 				item: "create:blaze_cake"
@@ -387,7 +573,14 @@
 		}
 		{
 			dependencies: ["007714EF64253AFA"]
+			description: ["TRAINS!!!!!!"]
 			id: "1B8568A31DF8B89F"
+			rewards: [{
+				id: "4B1711910996B79F"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "I Like Trains!"
 			tasks: [{
 				id: "6D41B9EE42380D7B"
 				item: "create:track"
@@ -401,7 +594,14 @@
 				"5170B543280D5F9C"
 				"7BA37038317A0A2C"
 			]
+			description: ["It is exactly as you would expect!"]
 			id: "6847996E9F90025C"
+			rewards: [{
+				id: "36D5993A306F4941"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Just like Factorio!"
 			tasks: [{
 				id: "2F7E2F3346971A82"
 				item: "create:mechanical_arm"
@@ -413,6 +613,12 @@
 		{
 			dependencies: ["02FA8405E0421F7F"]
 			id: "1107C422317355B2"
+			rewards: [{
+				id: "591634034735A721"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Choo Choo!"
 			tasks: [{
 				id: "54356EE35394A5C9"
 				item: "create:steam_whistle"
@@ -423,7 +629,18 @@
 		}
 		{
 			dependencies: ["1107C422317355B2"]
+			description: [
+				"Create: Confectionary adds a whole bunch of sweet treats!"
+				""
+				"Consider getting a Dessert Customer and making some sweets for the customer!"
+			]
 			id: "096EC7FAB633CAC4"
+			rewards: [{
+				id: "2D560926E3F7C5BE"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "You'll never catch me!"
 			tasks: [{
 				id: "3B76FD2400F8009B"
 				item: "create_confectionery:gingerbread_man"
@@ -434,7 +651,13 @@
 		}
 		{
 			dependencies: ["4E2E63C3B22F1F3A"]
+			description: ["Create: Gunsmithing is an addon that adds guns to the Steampunk's arsenal!"]
 			id: "0B5242B361236E41"
+			rewards: [{
+				id: "3B4902E8EF8DAD4F"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7707DDABB9DFEBEB"
 				item: {
@@ -454,7 +677,19 @@
 		}
 		{
 			dependencies: ["096EC7FAB633CAC4"]
+			description: [
+				"Well... A lot!"
+				""
+				"Create is filled with all sorts of cool machinery!"
+				""
+				"There is even integration with other mods like Botania and Ars Nouveau!"
+			]
 			id: "67E288656BC45832"
+			rewards: [{
+				id: "007F6838A393E2A8"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			shape: "circle"
 			tasks: [{
 				id: "41C18AC581E40DC4"
@@ -466,7 +701,13 @@
 		}
 		{
 			dependencies: ["7BC5B367174D0B28"]
+			description: ["Immersive Aircraft adds a few aircraft to help you travel about the world!"]
 			id: "6C4D32B24778B400"
+			rewards: [{
+				id: "3FE22E1407493C7C"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "16F40440E6B70AE4"
 				item: "immersive_aircraft:engine"
@@ -477,7 +718,18 @@
 		}
 		{
 			dependencies: ["7BC5B367174D0B28"]
+			description: [
+				"Rustic Engineer adds in a few steam-powered machinery (water+fuel)."
+				""
+				"Just craft them and the rest should make sense from there!"
+			]
 			id: "76097582F4A546F8"
+			rewards: [{
+				count: 4
+				id: "72549B664D62B2A1"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "152A95E9592410BD"
@@ -506,7 +758,17 @@
 		}
 		{
 			dependencies: ["56218D36473B2E3B"]
+			description: [
+				"The Grappling Hook mod does exactly what you expect it to... adds Grappling Hooks!"
+				""
+				"Just right-click with it to throw and press \"R\" and \"F\" to go up and down!"
+			]
 			id: "5C73B93F360642F4"
+			rewards: [{
+				id: "785D8E9234DA6005"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4C9DAFDF208CCA06"
 				item: {

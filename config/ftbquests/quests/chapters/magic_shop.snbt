@@ -247,6 +247,28 @@
 			x: 1.5d
 			y: -3.0d
 		}
+		{
+			dependencies: ["58028D70E478CD64"]
+			icon: "minecraft:andesite"
+			id: "3FABDDF1091B2176"
+			optional: true
+			rewards: [{
+				count: 32
+				id: "3F87B2F1A9226F9A"
+				item: "minecraft:andesite"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "64B164204A4D7F5B"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "32x Andesite"
+			x: 0.0d
+			y: -3.0d
+		}
 	]
 	title: "&2Magic Shop"
 }

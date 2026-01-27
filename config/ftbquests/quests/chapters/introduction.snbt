@@ -68,6 +68,11 @@
 			]
 			hide_until_deps_complete: true
 			id: "5149D540F65A9819"
+			rewards: [{
+				id: "1DE8B9983B1A7580"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
 			subtitle: "Where do I start!?"
 			tasks: [{
 				id: "77553EC45C2DD934"
@@ -219,7 +224,7 @@
 			description: [
 				"In this modpack, there are 3 different lead ingots and 4 different silver ingots."
 				""
-				"This "
+				"This may be annoying, but you may use the polymorph feature to choose which ingot you craft."
 			]
 			id: "24E5DF3F36C4C986"
 			subtitle: "Minecraft should really add these ores"
@@ -798,6 +803,11 @@
 		{
 			dependencies: ["7D7B61A021F6B9B4"]
 			id: "117C8208EABF11AC"
+			rewards: [{
+				id: "7799B2C530899B31"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1C2FF95CA737BBAD"
 				item: "betterarcheology:archeology_table"
@@ -850,6 +860,11 @@
 		{
 			dependencies: ["399F7E91ACC3971F"]
 			id: "23C7713FE11A81B7"
+			rewards: [{
+				id: "26BB338E5DE352ED"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
 			subtitle: "The catalogue of items"
 			tasks: [{
 				id: "2E583D493606F5A5"

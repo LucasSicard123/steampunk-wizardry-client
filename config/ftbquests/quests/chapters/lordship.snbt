@@ -698,6 +698,7 @@
 		}
 		{
 			dependencies: ["7415A139F22AD17C"]
+			description: ["Villagers are a very important part of the modpack along with Emeralds as you already know."]
 			id: "268F09317152A12A"
 			rewards: [{
 				id: "5874BBE3988CAFDD"
@@ -785,21 +786,94 @@
 				item: "tradingpost:trading_post"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 3.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["268F09317152A12A"]
 			id: "7B6AF7CD34BACC56"
-			optional: true
+			rewards: [{
+				id: "13CC75A70E52EA3C"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			shape: "circle"
 			tasks: [{
 				id: "3C70C4FA137874D7"
 				title: "Dynamic Villager Trades"
 				type: "checkmark"
 			}]
-			x: 2.5d
+			x: 3.0d
 			y: -1.5d
+		}
+		{
+			dependencies: ["268F09317152A12A"]
+			description: [
+				"Villager Workers are a great way to do some simple task for you."
+				""
+				"All you need to do is trade with a villager enough to get to the work table you wish to get."
+				""
+				"Then place it down and wait for a worker to become the profession you wish."
+				""
+				"Now you may hold COMMA to get a command screen."
+				""
+				"You only need to worry about 3 things:"
+				"1) Where they sleep."
+				"2) Where they work."
+				"3) Protecting them from hostile mobs."
+				"4) Where their chest is for picking up and dropping off items."
+				"5) Feeding them (place in a chest)."
+				""
+				"Farmers can only grow Minecraft vanilla crops unfortunately."
+			]
+			id: "6598182DF150294F"
+			rewards: [{
+				id: "5E5AFD7563A9EA00"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "77787FD5338EB4CA"
+				title: "Villager Workers"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["268F09317152A12A"]
+			id: "4AA31431A8A018E9"
+			rewards: [{
+				id: "60884F784E71D543"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "03537F174AC75A67"
+				title: "Villager Recruits"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["268F09317152A12A"]
+			id: "2A5B815190FE6248"
+			rewards: [{
+				id: "14662234C80C619A"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "7CA10235989E3D1D"
+				title: "Customers"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -2.5d
 		}
 	]
 	title: "&bLordship"

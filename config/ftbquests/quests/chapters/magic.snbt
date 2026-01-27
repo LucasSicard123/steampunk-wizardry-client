@@ -234,6 +234,17 @@
 		}
 		{
 			dependencies: ["3FA9143ADC0A59CB"]
+			description: [
+				"Welcome to Iron's Spells and Spellbooks!"
+				""
+				"First thing's first: the guidebook to this mod was removed by the mod author, so start this mod once you find a scroll or two."
+				""
+				"Next: this is a very easy to follow magic mod as it is just a collection of spells and gear."
+				""
+				"The quests for this magic are few and not very descriptive because of this, but I'm sure you'll understand anyway."
+				""
+				"There is also the wiki if you do become confused!"
+			]
 			icon: {
 				Count: 1
 				id: "patchouli:guide_book"
@@ -248,24 +259,11 @@
 				type: "item"
 			}]
 			subtitle: "Gotta catch 'em all!"
-			tasks: [
-				{
-					id: "49C0CC5F00245AAB"
-					item: {
-						Count: 1
-						id: "patchouli:guide_book"
-						tag: {
-							"patchouli:book": "irons_spellbooks:iss_guide_book"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "0DB358ABEEADBC3C"
-					title: "I Have This Book!"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "0DB358ABEEADBC3C"
+				title: "I Have A Scroll!"
+				type: "checkmark"
+			}]
 			title: "Power of Those Before You"
 			x: 2.5d
 			y: -4.0d
@@ -2743,6 +2741,15 @@
 		}
 		{
 			dependencies: ["28B50B4FC17044C2"]
+			description: [
+				"Now you have a spell in your book."
+				""
+				"Hold the book in your hand and press \"V\", it will cast the selected spell."
+				""
+				"To switch, hold \"R\" and select the spell."
+				""
+				"To unequip, return to the Inscription Table and remove the book."
+			]
 			id: "71D8E268B80D8F4C"
 			rewards: [{
 				id: "498A549D2614665C"
@@ -2770,6 +2777,15 @@
 		}
 		{
 			dependencies: ["721A84A6DC0773D2"]
+			description: [
+				"An Inscription Table allows you to place scrolls into a spell book so that you may use the spell more than once."
+				""
+				"In the table UI, you need to place a spell book in the top-left slot and a scroll in the bottom-left."
+				""
+				"Then click the little scribe symbol to add it to the book."
+				""
+				"You may click which slot on the right you wish to apply the spell scroll to."
+			]
 			id: "28B50B4FC17044C2"
 			rewards: [{
 				id: "3D192345A3473AD6"
@@ -2786,6 +2802,13 @@
 		}
 		{
 			dependencies: ["71D8E268B80D8F4C"]
+			description: [
+				"The Scroll Forge simply allows you to make scrolls!"
+				""
+				"You need to find ink, but then you may craft spell scrolls depending on the resources you place in."
+				""
+				"&oPress \"U\" on the Scroll Forge for recipes"
+			]
 			id: "4FBBF50407AFBC97"
 			rewards: [{
 				id: "04F82B1B8F1FCC02"
@@ -2818,6 +2841,11 @@
 		}
 		{
 			dependencies: ["38DC28DE8184E494"]
+			description: [
+				"The Arcane Anvil allows you to place upgrades upon you equipment and scrolls."
+				""
+				"I would recommend against pressing \"U\" on this one..."
+			]
 			id: "0AF121977E029BBA"
 			rewards: [{
 				id: "2ACE975EFBADFE87"
@@ -2834,6 +2862,7 @@
 		}
 		{
 			dependencies: ["0AF121977E029BBA"]
+			description: ["This is for making upgrade orbs... Obviously..."]
 			id: "0A47F5059E553B14"
 			rewards: [{
 				id: "028F5E60A61C9BB7"
@@ -2850,6 +2879,13 @@
 		}
 		{
 			dependencies: ["0A47F5059E553B14"]
+			description: [
+				"That is basically it..."
+				""
+				"Just find spell scrolls, search and/or craft magic gear, and get stronger through adventure!"
+				""
+				"Enjoy!"
+			]
 			id: "37831CBE7EAA0D47"
 			rewards: [{
 				id: "21C93E488D266FCA"
@@ -2867,6 +2903,7 @@
 		}
 		{
 			dependencies: ["71D8E268B80D8F4C"]
+			description: ["Arcane Cloth is used for a great many things in the mod."]
 			id: "225125AA0D57E0F7"
 			rewards: [{
 				id: "5A551E898432BF04"
@@ -2886,6 +2923,15 @@
 				"225125AA0D57E0F7"
 				"0A47F5059E553B14"
 			]
+			description: [
+				"These are cute little familiars all found on the Origin Island and around the world!"
+				""
+				"To tame, use arcane essence!"
+				""
+				"To make sit, right-click with a stick!"
+				""
+				"Press \"L\" to summon/unsummon familiars!"
+			]
 			icon: "alshanex_familiars:familiar_tome"
 			id: "631DDFD575990104"
 			rewards: [{
@@ -2893,18 +2939,12 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			tasks: [
-				{
-					id: "52F7346DB9E8996B"
-					item: "alshanex_familiars:familiar_tome"
-					type: "item"
-				}
-				{
-					id: "1561979586EFF3F2"
-					item: "alshanex_familiars:pet_bed"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1561979586EFF3F2"
+				item: "alshanex_familiars:pet_bed"
+				type: "item"
+			}]
+			title: "Alshanex's Familiars"
 			x: 10.0d
 			y: -20.5d
 		}

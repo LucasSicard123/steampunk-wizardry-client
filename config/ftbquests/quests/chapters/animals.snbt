@@ -28,7 +28,7 @@
 			rotation: 0.0d
 			width: 5.0d
 			x: 1.5d
-			y: 16.5d
+			y: 18.0d
 		}
 		{
 			height: 2.0d
@@ -36,7 +36,7 @@
 			rotation: 0.0d
 			width: 8.0d
 			x: 1.5d
-			y: 12.0d
+			y: 13.5d
 		}
 		{
 			height: 4.0d
@@ -2505,7 +2505,7 @@
 				type: "observation"
 			}]
 			x: 0.5d
-			y: 19.0d
+			y: 21.0d
 		}
 		{
 			id: "5AB5EAB495692595"
@@ -2524,7 +2524,7 @@
 				type: "observation"
 			}]
 			x: 2.0d
-			y: 19.0d
+			y: 21.0d
 		}
 		{
 			id: "5F6CFA3525D83D03"
@@ -2543,7 +2543,7 @@
 				type: "observation"
 			}]
 			x: -1.0d
-			y: 19.0d
+			y: 21.0d
 		}
 		{
 			id: "65893E4B9CEA4527"
@@ -2562,7 +2562,7 @@
 				type: "observation"
 			}]
 			x: 3.5d
-			y: 19.0d
+			y: 21.0d
 		}
 		{
 			id: "13D03E4F45046EB0"
@@ -2886,7 +2886,7 @@
 				type: "observation"
 			}]
 			x: 6.5d
-			y: 13.5d
+			y: 15.0d
 		}
 		{
 			id: "67C9B5D62A400081"
@@ -2906,7 +2906,7 @@
 				type: "observation"
 			}]
 			x: -4.0d
-			y: 13.5d
+			y: 15.0d
 		}
 		{
 			id: "43691467FB457776"
@@ -2926,7 +2926,7 @@
 				type: "observation"
 			}]
 			x: -2.5d
-			y: 13.5d
+			y: 15.0d
 		}
 		{
 			id: "52EC8550A2920163"
@@ -2946,7 +2946,7 @@
 				type: "observation"
 			}]
 			x: -1.0d
-			y: 13.5d
+			y: 15.0d
 		}
 		{
 			id: "0C6B991F52F3C79B"
@@ -2966,7 +2966,7 @@
 				type: "observation"
 			}]
 			x: 0.5d
-			y: 13.5d
+			y: 15.0d
 		}
 		{
 			id: "5C0554691FCA16C3"
@@ -2986,7 +2986,7 @@
 				type: "observation"
 			}]
 			x: 2.0d
-			y: 13.5d
+			y: 15.0d
 		}
 		{
 			id: "1014E407FF1807BB"
@@ -3006,7 +3006,7 @@
 				type: "observation"
 			}]
 			x: 3.5d
-			y: 13.5d
+			y: 15.0d
 		}
 		{
 			id: "311E94131AE435F5"
@@ -3026,7 +3026,7 @@
 				type: "observation"
 			}]
 			x: 5.0d
-			y: 13.5d
+			y: 15.0d
 		}
 		{
 			id: "4239D53A9110DE20"
@@ -3504,6 +3504,63 @@
 			}]
 			x: -15.0d
 			y: 9.0d
+		}
+		{
+			id: "5D81824CFAA9E949"
+			rewards: [{
+				id: "486F97027CD1500F"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "irons_spellbooks:dragonskin"
+				id: "23861C76237CB89A"
+				observe_type: 5
+				timer: 0L
+				title: "Dragon Warrior Familiar"
+				to_observe: "alshanex_familiars:dragon_warrior_pet"
+				type: "observation"
+			}]
+			x: -0.5d
+			y: 11.5d
+		}
+		{
+			id: "040CC8BDFCD8286E"
+			rewards: [{
+				id: "742032C5158E66E1"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alshanex_familiars:frostling_shard"
+				id: "1FC458144BFAE702"
+				observe_type: 5
+				timer: 0L
+				title: "Frostling Familiar"
+				to_observe: "alshanex_familiars:frostling_pet"
+				type: "observation"
+			}]
+			x: 1.0d
+			y: 11.5d
+		}
+		{
+			id: "5F281AB416CC4358"
+			rewards: [{
+				id: "64BFF670A88DCA8B"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alshanex_familiars:lightning_mage_shard"
+				id: "2D578AE53E56F11E"
+				observe_type: 5
+				timer: 0L
+				title: "Lightning Mage Familiar"
+				to_observe: "alshanex_familiars:mage_pet"
+				type: "observation"
+			}]
+			x: 2.5d
+			y: 11.5d
 		}
 	]
 	subtitle: ["Observe These Animals"]

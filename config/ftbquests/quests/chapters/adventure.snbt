@@ -245,6 +245,11 @@
 		}
 		{
 			dependencies: ["10EFDD51B2163D04"]
+			description: [
+				"Mermorphs are underwater creatures that will trade with you!"
+				""
+				"Some take fish, others take aquamarine, just right-click them with the item and they'll give you something in return."
+			]
 			id: "74AA68583816283F"
 			rewards: [{
 				id: "15D3561F2FF0BB33"
@@ -265,6 +270,15 @@
 		}
 		{
 			dependencies: ["10EFDD51B2163D04"]
+			description: [
+				"Kobolds (from Kobolds!, not Twilight Forest) are friendly little creatures."
+				""
+				"You may trade with some of them by giving them an emerald."
+				""
+				"You may also breed them with amethyst."
+				""
+				"They usually live under forests and mountains."
+			]
 			id: "3305174A1D72131F"
 			rewards: [{
 				id: "16BB52B77AB5BABF"
@@ -291,6 +305,11 @@
 		}
 		{
 			dependencies: ["10EFDD51B2163D04"]
+			description: [
+				"Ribbits are cute little creatures that live in the swamp!"
+				""
+				"Some of them will trade amethyst for goods, but all of them love hanging out and playing music!"
+			]
 			id: "6C4843EAAE8DBFE5"
 			rewards: [{
 				id: "1733D2F4A6DC4D44"
@@ -311,6 +330,15 @@
 		}
 		{
 			dependencies: ["10EFDD51B2163D04"]
+			description: [
+				"Small Ships adds in some fast travelling ships that will help you sail the ocean!"
+				""
+				"Once in a ship, you may press \"E\" to open its inventory and press \"P\" to toggle the sail."
+				""
+				"\"W\" and \"S\" will speed up and slow down the ship respectively once the sail is open."
+				""
+				"You may also add cannons to the ship. Just make sure there are cannonballs in the ship or your inventory. Then look port or starboard and press \"Space\" to fire."
+			]
 			id: "5B8F6D1F64D35A0C"
 			rewards: [{
 				id: "78A9D8890FCE1778"
@@ -327,6 +355,7 @@
 		}
 		{
 			dependencies: ["10EFDD51B2163D04"]
+			description: ["Mythic Mounts contains a handful of mythical creatures that you may tame, but beware, not all are friendly at first..."]
 			id: "3F17EA8ECCCB36E6"
 			rewards: [{
 				id: "2EA545EB8C08E83F"
@@ -708,6 +737,7 @@
 		}
 		{
 			dependencies: ["10EFDD51B2163D04"]
+			description: ["Here is your ultimate guide to Luminous Beasts!"]
 			id: "4A4B1D468D495E38"
 			rewards: [{
 				id: "1436DC3C0FFD431A"
@@ -724,6 +754,7 @@
 		}
 		{
 			dependencies: ["10EFDD51B2163D04"]
+			description: ["Here is your ultimate guide to Critters n' Crawlers!"]
 			id: "11B55421908B8AB6"
 			rewards: [{
 				id: "2C77938B575A3365"
@@ -740,6 +771,7 @@
 		}
 		{
 			dependencies: ["10EFDD51B2163D04"]
+			description: ["Here is your ultimate guide to Alex's Caves!"]
 			id: "55A513106AE7F691"
 			rewards: [{
 				id: "622C2598D507F8E8"
@@ -756,6 +788,7 @@
 		}
 		{
 			dependencies: ["10EFDD51B2163D04"]
+			description: ["Here is your ultimate guide to Alex's Mobs!"]
 			id: "339AFFD02662FA27"
 			rewards: [{
 				id: "0622F1248B335B1A"

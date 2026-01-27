@@ -759,17 +759,6 @@
         "value": 10
       }
     },
-    "caelus:fall_flying": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1,
-        "value": 1
-      }
-    },
     "ars_nouveau:ars_nouveau.perk.max_mana": {
       "enabled": false,
       "min": {
@@ -790,6 +779,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "caelus:fall_flying": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "botania:pixie_spawn_chance": {
@@ -1892,17 +1892,6 @@
         "value": 100
       }
     },
-    "gtbcs_spell_lib:spell_crit_chance": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1,
-        "value": 1
-      }
-    },
     "tconstruct:generic.protection_cap": {
       "enabled": false,
       "min": {
@@ -1912,6 +1901,17 @@
       "max": {
         "default": 0.949999988079071,
         "value": 0.949999988079071
+      }
+    },
+    "gtbcs_spell_lib:spell_crit_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "iter_rpg:spell_burnout_multiplier": {
