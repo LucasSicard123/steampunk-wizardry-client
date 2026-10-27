@@ -1,10 +1,8 @@
 # steampunk-wizardry-client
 Client modpack of Steampunk Wizardry
 
-Server modpack [here](https://github.com/LucasSicard123/steampunk-wizardry-server)
-
 #### Missing Large File Mods:
-- [L_Enders_Cataclysm-3.26-enchant-fix.jar](https://www.curseforge.com/minecraft/mc-mods/lendercataclysm/files/7867528)
+- [L_Enders_Cataclysm-3.31.jar](https://www.curseforge.com/minecraft/mc-mods/lendercataclysm/files/8246047)
 - [zmedievalmusic-1.20.1-2.2.jar](https://www.curseforge.com/minecraft/mc-mods/medieval-music/files/6863096)
 
 ### Instructions:
